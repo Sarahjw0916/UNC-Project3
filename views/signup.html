@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charet="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Artist Alley!</title>
+</head>
+
+<body>
+    <div class="dash_b_form_container with_bg has_subheading">
+        <div class="dash_b_form_header">
+            <h1 class="logo-word large" id="logo">
+                <a class="logo_anchor" href="/" aria-label="Artist Alley" tabindex="-1">Artist Alley</a>
+            </h1>
+            <h2 class="subheading">Network yourself<br>Make friends along the way</h2>
+        </div>
+        <div class="form-header-welcome">
+            <h2 class="section-title">Welcome to Artist Alley! Meet creators like you!</h2>
+            <p class="subheading">Create an account now to see more!</p>
+        </div>
+        <div class="dash_b_form">
+            <div id="signup_forms" class="signup_forms clearfix">
+                <div id="signup_forms_container" class="signup_forms_container clearfix">
+                    <div id="signup_forms_panel" class="signup_forms_panel clearfix">
+                        <form tabindex="-1" class="signup_form_form" id="signup_form" method="post" action=""
+                            data-secure-action="" data-secure-ajax-action="">
+                            <div class="signup_view get_started active" id="signup_get_started">
+                            </div>
+                            <div class="signup_view determine" id="signup_determine">
+                                <div class="form_row form_row_email">
+
+                                    <label for="signup_determine">Email</label>
+                                    <input type="email" name="determine_email" placeholder="Email"
+                                        id="signup_determine_email" data-required="required" value=""
+                                        disabled="disabled">
+                                    <input type="password" id="signup_password_hidden" tabindex="-1"
+                                        disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="signup_view account login" id="signup_account">
+                                <div class="form_row form_row_email"><label for="signup_email">Email</label>
+                                    <input type="email" name="determine_email" placeholder="Email"
+                                        id="signup_determine_email" data-required="required" value=""
+                                        disabled="disabled">
+                                    <input type="password" id="signup_password_hidden" tabindex="-1"
+                                        disabled="disabled">
+                                </div>
+                            </div>
+                            <div class="signup_view account login" id="signup_account">
+                                <div class="form_row form_row_email"><label for="signup_email">Email</label>
+                                    <input type="email" name="user[email]" placeholder="Email" id="signup_email"
+                                        data-required="required" value="" disabled="disabled"></div>
+                                <div class="form_row form_row_password"><label for="signup_password">Password</label>
+                                    <input type="password" name="user[password]" placeholder="Password"
+                                        id="signup_password" data-required="required" disabled="disabled">
+                                </div>
+                                <div class="form_row username">
+                                    <label for="signup_username">Username</label>
+                                    <input type="text" name="artistalley[name]" class="signup_username"
+                                        placeholder="Username" id="signup_username" maxlength="32" autocorrect="off"
+                                        autocapitalize="off" value="" disabled="disabled"><span
+                                        class="icon_checkmark signup_username_checkmark"></span>
+                                </div>
+                            </div>
+                            <div class="signup_view birthday" id="signup_birthday">
+                                <div class="form_row">
+                                    <div class="form_field age">
+                                        <label for="signup_age" class="signup_age_label is_empty years_old">
+                                            <b></b> <span class="placeholder">How old are you?</span></label>
+                                        <input type="text" name="user[age]" id="signup_age" value=""
+                                            class="signup_age is_empty" size="3" min="18" max="130"
+                                            data-required="required" disabled="disabled"></div>
+                                </div>
+                                <div class="form_row tos"><input type="checkbox" name="user[tos]" id="signup_tos"
+                                        data-required="required" value="1" disabled="disabled">
+                                    <label for="signup_tos">I have read, understand, and agree to Artist Alley Terms and
+                                        Conditions <a href="/policy/" class="signup_terms_link" tabindex="-1"
+                                            target="_new">Terms of Service</a>.</label>
+                                </div>
+                            </div>
+                            <div class="captcha recaptcha2_captcha signup_view" id="signup_register">
+                                <div class="form_row">
+                                    <div class="g-recaptcha" id="g-recaptcha"
+                                        data-sitekey="6LcaLgATAAAAAMfyoZjBXW33zuRRJq9pFvsE9HJJ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form_row_hidden">
+                                <input type="hidden" name="context" value="no_referer">
+                                <input type="hidden" name="version" value="STANDARD">
+                                <input type="hidden" name="follow" value="">
+                                <input type="hidden" name="form_key" value="!1231569972054|U1a4XGUgMdrADxQCKRRGPMhwGiA">
+                                <input type="hidden" id="seen_suggestion" name="seen_suggestion" value="0">
+                                <input type="hidden" id="used_suggestion" name="used_suggestion" value="0">
+                                <input type="hidden" id="used_auto_suggestion" name="used_auto_suggestion" value="0">
+                                <input type="hidden" id="about_artistalley_slide" name="about_artistalley_slide"
+                                    value="">
+                                <input type="hidden" name="vendor_consents" value="">
+                            </div>
+                            <div class="signup_view magiclink" id="signup_magiclink">
+                                <div class="magiclink_send_magic_link chrome blue">
+                                    <a href="#" class="send_magic_link" tabindex="-1">Send me a magic link</a>
+                                </div>
+                                <div class="magiclink_password_container chrome">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Use password to log in</a>
+                                </div>
+                                <div class="back_container">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Back</a>
+                                </div>
+                            </div>
+                            <div class="signup_view magiclinkemail" id="signup_magiclinkemail">
+                                <div class="magiclink_send_magic_link chrome blue">
+                                    <a href="#" class="send_magic_link" tabindex="-1">Send me a magic link</a>
+                                </div>
+                                <div class="magiclink_password_container chrome">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Use password to log in</a>
+                                </div>
+                                <div class="back_container">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Back</a>
+                                </div>
+                            </div>
+                            <div class="signup_view magiclinkemail" id="signup_magiclinkemail">
+                                <div class="form_row form_row_email">
+                                    <input type="hidden" name="action" value="signup_determine" disabled="disabled">
+                                    <div class="form-description">
+
+                                        <h1 class="headline">
+                                            <p> We sent you a magic link!</p>
+                                        </h1>
+                                        <p>We sent an email to <b class="email_user"></b>.</p>
+                                        <p>It contains a magic link that'll log you in.</p>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="magiclink_password_container chrome">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Use password to log in</a>
+                                </div>
+                                <div class="back_container">
+                                    <a href="#" class="forgot_password_link" tabindex="-1">Back</a>
+                                </div>
+                            </div>
+                            <button type="submit" class="signup_forms_submit_helper" tabindex="-1">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <ul class="signup_forms_errors" id="signup_form_errors" tabindex="0" aria-live="polite"></ul>
+                <div id="suggested_usernames_container" class="hidden">
+                    <div class="popover popover_onboarding popover_menu popover_gradient nipple_on_left"
+                        style="display:none;">
+                        <div class="popover_inner">
+                            <div class="username_note">
+                                <strong>How about one of these?</strong>
+                                <br>(You can always change it later.)
+                            </div>
+                            <button class="chrome big signup_forms_submit touchy blue" id="signup_forms_submit">
+                                <span class="signup_get_started_btn active">Get Started</span>
+                                <span class="signup_determine_btn">Next</span>
+                                <span class="signup_account_btn">Sign up</span>
+
+                                <span class="signup_account_btn">Sign up</span>
+                                <span class="signup_birthday_btn">Next</span>
+                                <span class="signup_register_btn"><span><b>Almost</b> <b>Done!</b></span>
+                                </span>
+                                <span class="signup_login_btn">Log in</span></button>
+                            <button class="chrome big signup_forms_submit touchy dark" id="signup_login_button">
+                                <span class="signup_get_started_btn active">Log In</span></button>
+                            <div class="forgot_password_container">
+                                <a href="/forgot_password" class="forgot_password_link" tabindex="-1">Forgot your
+                                    password?</a>
+                            </div>
+                        </div>
+                        <div class="signup_waiting" id="signup_waiting">
+                        </div>
+
+                    </div>
+                    </a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+</body>
+
+</html>
