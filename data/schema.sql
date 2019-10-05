@@ -1,7 +1,6 @@
 DROP DATABASE IF EXISTS alleydb;
 CREATE DATABASE alleydb;
 
-<<<<<<< HEAD
 
 
 
