@@ -1,0 +1,34 @@
+#pink {
+    background-color: #FF609D;
+}
+
+.test {
+    background-color: #2C2834;
+}
+
+#back {
+    background-color: #2C2834;
+
+}
+
+a {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+#myNavBar {
+    background-color: rgb(249, 128, 174);
+}
+
+table {
+    table-layout: fixed;
+    /* word-wrap: break-word; */
+}
+
+.well {
+    background: white;
+}; 
+
