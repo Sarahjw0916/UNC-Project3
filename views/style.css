@@ -11,6 +11,14 @@
 
 }
 
+.navbar-inverse .navbar-brand {
+    color: #2C2834;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
 a {
     color: white;
 }
