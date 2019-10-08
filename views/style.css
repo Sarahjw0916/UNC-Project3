@@ -10,36 +10,6 @@
   background-color: #2c2834;
 }
 
-.text-center {
-  text-align: center !important;
-}
-
-#signin {
-  border-radius: 25px;
-  border: 2px solid white;
-  padding: 10px;
-  background-color: white;
-}
-
-
-#signup {
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-image: url("https://3.bp.blogspot.com/-YGeLk4geUFg/W8TY2qbWgMI/AAAAAAAAEfc/Ua-3NhNGRSk3pcsxenyprpipPoQx9lFfACLcBGAs/s1600/1537820530470.jpg");
-  background-size: cover;
-}
-
-form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-
 .navbar-inverse .navbar-brand {
   color: #2c2834;
 }
@@ -67,4 +37,8 @@ table {
 
 .well {
   background: white;
+}
+
+.well a {
+  color: black;
 }

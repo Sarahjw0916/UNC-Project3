@@ -40,8 +40,8 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="#">Messages</a></li>
+            <li><a href="framework.html">Home</a></li>
+            <li class="active"><a href="message.html">Messages</a></li>
           </ul>
           <form class="navbar-form navbar-right" role="search">
             <div class="form-group input-group">
@@ -55,7 +55,7 @@
           </form>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#"
+              <a href="user.html"
                 ><span class="glyphicon glyphicon-user"></span> My Account</a
               >
             </li>
@@ -86,16 +86,15 @@
                   width="55"
                   alt="Avatar"
                 />
-                <button class="btn btn-warning">Important</button>
               </div>
             </div>
             <div class="col-sm-9">
               <div class="well">
-                <p>
-                  Just Forgot that I had to mention something about someone to
-                  someone about how I forgot something, but now I forgot it.
-                  Ahh, forget it! Or wait. I remember.... no I don't.
-                </p>
+                <h4>SUPER URGENT</h4>
+
+                <button class="btn btn-warning">Important</button>
+                <button class="btn btn-warning" data-reply="John">Reply</button>
+                <button class="btn btn-warning">Trash</button>
               </div>
             </div>
           </div>
@@ -110,16 +109,15 @@
                   width="55"
                   alt="Avatar"
                 />
-                <button class="btn btn-warning">Important</button>
               </div>
             </div>
             <div class="col-sm-9">
               <div class="well">
-                <p>
-                  Just Forgot that I had to mention something about someone to
-                  someone about how I forgot something, but now I forgot it.
-                  Ahh, forget it! Or wait. I remember.... no I don't.
-                </p>
+                <h4>I need it done by tomorrow.</h4>
+
+                <button class="btn btn-warning">Important</button>
+                <button class="btn btn-warning" data-reply="Bo">Reply</button>
+                <button class="btn btn-warning">Trash</button>
               </div>
             </div>
           </div>
@@ -134,16 +132,16 @@
                   width="55"
                   alt="Avatar"
                 />
-                <button class="btn btn-warning">Important</button>
               </div>
             </div>
             <div class="col-sm-9">
               <div class="well">
-                <p>
-                  Just Forgot that I had to mention something about someone to
-                  someone about how I forgot something, but now I forgot it.
-                  Ahh, forget it! Or wait. I remember.... no I don't.
-                </p>
+                <h4>I am not impresssed.</h4>
+
+                <button class="btn btn-warning">Important</button>
+                <button class="btn btn-warning" data-reply="Jane">Reply</button>
+
+                <button class="btn btn-warning">Trash</button>
               </div>
             </div>
           </div>
@@ -158,16 +156,14 @@
                   width="55"
                   alt="Avatar"
                 />
-                <button class="btn btn-warning">Important</button>
               </div>
             </div>
             <div class="col-sm-9">
               <div class="well">
-                <p>
-                  Just Forgot that I had to mention something about someone to
-                  someone about how I forgot something, but now I forgot it.
-                  Ahh, forget it! Or wait. I remember.... no I don't.
-                </p>
+                <h4>Some Ideas</h4>
+                <button class="btn btn-warning">Important</button>
+                <button class="btn btn-warning" data-reply="Anja">Reply</button>
+                <button class="btn btn-warning">Trash</button>
               </div>
             </div>
           </div>
@@ -185,6 +181,54 @@
           </div>
           <div class="well">
             <p>ADS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModal"
+    >
+      Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
